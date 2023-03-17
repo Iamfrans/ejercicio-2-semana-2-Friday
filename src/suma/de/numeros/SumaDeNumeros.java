@@ -17,8 +17,16 @@ public class SumaDeNumeros {
         Scanner leer = new Scanner (System.in);
         //impleamos la entada de texto
         
-        System.out.println("ingrese su nombre: ");
-        String nombre = leer.next();
-    }
+        System.out.println("ingrese un valo: ");
+        String num = leer.next();
+    public static int imprimirSecuencia(int num, int i) {
     
+    }
+    int sumatoria = 0;
+        //cliclo for y nombamos la vaiabl i
+        for(int i=0; i <= num; i++ ){
+        suma
+        }
+    }
+        
 }
