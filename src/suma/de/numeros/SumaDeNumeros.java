@@ -19,13 +19,10 @@ public class SumaDeNumeros {
         
         System.out.println("ingrese un valo: ");
         String num = leer.next();
-    public static int imprimirSecuencia(int num, int i) {
-    
-    }
-    int sumatoria = 0;
         //cliclo for y nombamos la vaiabl i
         for(int i=0; i <= num; i++ ){
-        suma
+        suma += i
+        System.out.print(i + " ");        
         }
     }
         
