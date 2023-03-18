@@ -16,14 +16,14 @@ public class SumaDeNumeros {
     public static void main(String[] args) {
         Scanner leer = new Scanner (System.in);
         //impleamos la entada de texto
-        
         System.out.println("ingrese un valo: ");
-        String num = leer.next();
+        int num = leer.nextInt();
+        int suma = 0;
         //cliclo for y nombamos la vaiabl i
-        for(int i=0; i <= num; i++ ){
-        suma += i
-        System.out.print(i + " ");        
+        for(int i =0; i <= num; i++ ){
+            suma = suma + i;  
         }
+        System.out.print("la suma es " +suma);     
     }
         
 }
